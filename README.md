@@ -28,7 +28,7 @@ To train the model in the paper, run this command
 
 To evaluate my model on SWINIR, run this command
 ```
-!python testing.py --model_path [path of the weight] --task classical_sr --scale 3 --folder_lq "datasets/testing_lr_images/testing_lr_images" 
+!python testing.py --model_path [path of the file final_weight.pth] --task classical_sr --scale 3 --folder_lq "datasets/testing_lr_images/testing_lr_images" 
 ```
 
 
