@@ -21,7 +21,7 @@ Before training the model, remember to put you training set and validation set i
 To train the model in the paper, run this command 
 ```
 !git clone https://github.com/PeiHuaWu/2021VRDL_HW4.git
-!python main_train_psnr.py --opt train_swinir_sr.json
+!python training.py --opt train_swinir_sr.json
 ```
 
 ## Testing
@@ -36,4 +36,4 @@ To evaluate my model on SWINIR, run this command
 
 You can also download the file here:
 
-- [The file of model_final.pth](https://drive.google.com/file/d/1_BmSqW-x6eav4lXSDByWLXmka7X5AEIT/view?usp=sharing)
+- [The file of final_weight.pth](https://drive.google.com/file/d/1DO2BSkoOHXJanNEXchLIwE5ovhh9h5S_/view?usp=sharing)
